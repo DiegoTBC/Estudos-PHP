@@ -159,6 +159,7 @@
       <updated>1606736377852</updated>
       <workItem from="1606736379207" duration="9689000" />
       <workItem from="1606746376944" duration="14000" />
+      <workItem from="1606759895074" duration="5092000" />
     </task>
     <servers />
   </component>
@@ -182,26 +183,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1032" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.224.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606744121063" />
+    <state x="1144" y="89" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606764033414">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1144" y="89" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.224.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606764033414" />
     <state x="1220" y="278" key="FileChooserDialogImpl" timestamp="1606744119367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="278" key="FileChooserDialogImpl/1920.224.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606744119367" />
-    <state width="619" height="281" key="GridCell.Tab.0.bottom" timestamp="1606744910603">
+    <state width="619" height="280" key="GridCell.Tab.0.bottom" timestamp="1606762227645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="281" key="GridCell.Tab.0.bottom/1920.224.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606744910603" />
-    <state width="619" height="281" key="GridCell.Tab.0.center" timestamp="1606744910603">
+    <state width="619" height="280" key="GridCell.Tab.0.bottom/1920.224.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606762227645" />
+    <state width="619" height="280" key="GridCell.Tab.0.center" timestamp="1606762227645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="281" key="GridCell.Tab.0.center/1920.224.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606744910603" />
-    <state width="619" height="281" key="GridCell.Tab.0.left" timestamp="1606744910603">
+    <state width="619" height="280" key="GridCell.Tab.0.center/1920.224.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606762227645" />
+    <state width="619" height="280" key="GridCell.Tab.0.left" timestamp="1606762227644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="281" key="GridCell.Tab.0.left/1920.224.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606744910603" />
-    <state width="619" height="281" key="GridCell.Tab.0.right" timestamp="1606744910603">
+    <state width="619" height="280" key="GridCell.Tab.0.left/1920.224.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606762227644" />
+    <state width="619" height="280" key="GridCell.Tab.0.right" timestamp="1606762227645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="281" key="GridCell.Tab.0.right/1920.224.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606744910603" />
+    <state width="619" height="280" key="GridCell.Tab.0.right/1920.224.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606762227645" />
     <state x="1069" y="243" key="NewPhpClassDialog" timestamp="1606742210992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
