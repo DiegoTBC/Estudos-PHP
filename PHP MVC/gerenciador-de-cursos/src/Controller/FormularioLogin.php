@@ -12,6 +12,6 @@ class FormularioLogin implements IControladorRequisicao
 
     public function processaRequisicao(): void
     {
-       echo $this->renderizaHTML('login/formulario.php', ['titulo' => 'Login']);
+       echo $this->renderizaHTML('login/formulario.php', ['titulo' => 'FormularioLogin']);
     }
 }
