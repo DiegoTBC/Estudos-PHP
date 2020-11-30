@@ -25,7 +25,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -158,6 +158,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606736377852</updated>
       <workItem from="1606736379207" duration="9689000" />
+      <workItem from="1606746376944" duration="14000" />
     </task>
     <servers />
   </component>
@@ -174,6 +175,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1032" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606744121063">
