@@ -160,6 +160,7 @@
       <workItem from="1606736379207" duration="9689000" />
       <workItem from="1606746376944" duration="14000" />
       <workItem from="1606759895074" duration="5092000" />
+      <workItem from="1606823457693" duration="7628000" />
     </task>
     <servers />
   </component>
@@ -187,6 +188,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1144" y="89" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.224.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606764033414" />
+    <state x="1169" y="278" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606828269562">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1169" y="278" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.224.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606828269562" />
+    <state x="1258" y="298" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method0" timestamp="1606828719232">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1258" y="298" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method0/1920.224.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606828719232" />
     <state x="1220" y="278" key="FileChooserDialogImpl" timestamp="1606744119367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -207,13 +216,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="619" height="280" key="GridCell.Tab.0.right/1920.224.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606762227645" />
-    <state x="1069" y="243" key="NewPhpClassDialog" timestamp="1606742210992">
+    <state x="1069" y="243" key="NewPhpClassDialog" timestamp="1606828236219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1069" y="243" key="NewPhpClassDialog/1920.224.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606742210992" />
-    <state x="1274" y="447" key="NewPhpFileDialog" timestamp="1606740513921">
+    <state x="1069" y="243" key="NewPhpClassDialog/1920.224.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606828236219" />
+    <state x="1274" y="447" key="NewPhpFileDialog" timestamp="1606826557633">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1274" y="447" key="NewPhpFileDialog/1920.224.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606740513921" />
+    <state x="1274" y="447" key="NewPhpFileDialog/1920.224.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606826557633" />
   </component>
 </project>
