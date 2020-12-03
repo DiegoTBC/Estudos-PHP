@@ -11,6 +11,7 @@ use App\Services\CriadorDeSerie;
 use App\Services\RemovedorDeSerie;
 use App\Temporada;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
 use function foo\func;
@@ -18,6 +19,7 @@ use function Sodium\compare;
 
 class SeriesController extends Controller
 {
+
     public function index(Request $request)
     {
         $series = Serie::query()->orderBy('nome')->get();
