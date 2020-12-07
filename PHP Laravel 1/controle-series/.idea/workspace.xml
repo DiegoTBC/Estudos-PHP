@@ -20,10 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61c95049-25d2-4811-ab58-531db5639c11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Events/NovaSerie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Listeners/EnviarEmailNovaSerie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Listeners/LogNovaSerie.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SeriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SeriesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/EnviarEmail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/EnviarEmail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,12 +138,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1l0aHvAQr7EMVI9NtzIgPMyIEvz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="snowflake&#10;sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -224,6 +229,7 @@
       <workItem from="1607080882684" duration="4680000" />
       <workItem from="1607341066580" duration="94000" />
       <workItem from="1607341259231" duration="10186000" />
+      <workItem from="1607363349401" duration="4131000" />
     </task>
     <servers />
   </component>
@@ -241,5 +247,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

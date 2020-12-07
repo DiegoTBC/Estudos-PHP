@@ -48,7 +48,13 @@ class SeriesController extends Controller
             $request->session()->flash('mensagem', "Série {$serie->id} e suas temporadas e episodios foram criada com sucesso");
         });
 
-        EnviarEmail::novaSerieAll($request);
+        event(new \App\Events\NovaSerie(
+            $request->nome,
+            $request->qtd_temporadas,
+            $request->ep_por_temporada
+        ));
+
+        //EnviarEmail::novaSerieAll($request);
 
         return redirect()->route('listar_series');
     }
