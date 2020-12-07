@@ -6,13 +6,17 @@ namespace App\Http\Controllers;
 
 use App\Episodio;
 use App\Http\Requests\SeriesFormRequest;
+use App\Mail\NovaSerie;
 use App\Serie;
 use App\Services\CriadorDeSerie;
+use App\Services\EnviarEmail;
 use App\Services\RemovedorDeSerie;
 use App\Temporada;
+use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 use function foo\func;
 use function Sodium\compare;
@@ -43,6 +47,8 @@ class SeriesController extends Controller
 
             $request->session()->flash('mensagem', "Série {$serie->id} e suas temporadas e episodios foram criada com sucesso");
         });
+
+        EnviarEmail::novaSerie($request);
 
         return redirect()->route('listar_series');
     }
