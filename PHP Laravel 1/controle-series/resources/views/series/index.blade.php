@@ -16,7 +16,11 @@ Série
         @foreach($series as $serie)
             <li class="list-group-item d-flex justify-content-between align-items-center">
 
-                <span id="nome-serie-{{ $serie->id }}">{{ $serie->nome }}</span>
+                <div>
+                    <img src="{{$serie->getCapaUrlAttribute()}}" alt="" class="img-thumbnail" height="100px" width="100px">
+
+                    <span id="nome-serie-{{ $serie->id }}">{{ $serie->nome }}</span>
+                </div>
 
                 <div class="input-group w-50" hidden id="input-nome-serie-{{ $serie->id }}">
                     <input type="text" class="form-control" value="{{ $serie->nome }}">

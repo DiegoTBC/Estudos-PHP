@@ -20,12 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61c95049-25d2-4811-ab58-531db5639c11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Events/NovaSerie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Listeners/EnviarEmailNovaSerie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Listeners/LogNovaSerie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_07_193322_adiciona_campo_capa_na_serie.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SeriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SeriesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Serie.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Serie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/CriadorDeSerie.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/CriadorDeSerie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/RemovedorDeSerie.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/RemovedorDeSerie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/series/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/series/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/series/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/series/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/temporadas/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/temporadas/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,6 +164,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\torre\Documents\GitHub\Estudos-PHP\PHP Laravel 1\controle-series\storage\app\public\serie" />
+    </key>
+  </component>
   <component name="RunManager" selected="PHPUnit.RemovedorDeSerieTest.testRemoverUmaSerie">
     <configuration name="CriadorDeSerieTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <CommandLine>
@@ -229,7 +237,7 @@
       <workItem from="1607080882684" duration="4680000" />
       <workItem from="1607341066580" duration="94000" />
       <workItem from="1607341259231" duration="10186000" />
-      <workItem from="1607363349401" duration="4131000" />
+      <workItem from="1607363349401" duration="9809000" />
     </task>
     <servers />
   </component>
@@ -250,5 +258,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Services/RemovedorDeSerie.php</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

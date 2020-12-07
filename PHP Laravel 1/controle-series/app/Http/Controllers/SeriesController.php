@@ -40,10 +40,19 @@ class SeriesController extends Controller
 
     public function store(SeriesFormRequest $request, CriadorDeSerie $criador)
     {
-        DB::transaction(function () use($criador, $request) {
+
+        $capa = null;
+        if ($request->hasFile('capa'))
+        {
+            $capa = $request->file('capa')->store('serie');
+        }
+
+        DB::transaction(function () use($criador, $request, $capa) {
             $serie = $criador->criarSerie($request->nome,
                 $request->qtd_temporadas,
-                $request->ep_por_temporada);
+                $request->ep_por_temporada,
+                $capa
+            );
 
             $request->session()->flash('mensagem', "Série {$serie->id} e suas temporadas e episodios foram criada com sucesso");
         });
