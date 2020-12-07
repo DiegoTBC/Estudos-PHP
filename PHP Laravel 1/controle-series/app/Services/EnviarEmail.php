@@ -27,8 +27,9 @@ class EnviarEmail
     public static function novaSerieAll(Request $request)
     {
         $users = User::all();
-        foreach ($users as $user)
+        foreach ($users as $indice => $user)
         {
+            $multiplicador = $indice + 1;
             $email = new NovaSerie(
                 $request->nome,
                 $request->qtd_temporadas,
@@ -36,9 +37,8 @@ class EnviarEmail
             );
 
             $email->subject('Nova Série Adicionada');
-
-            Mail::to($user)->send($email);
-            sleep(5);
+            $quando = now()->addSeconds($multiplicador * 10);
+            Mail::to($user)->later($quando, $email);
         }
     }
 

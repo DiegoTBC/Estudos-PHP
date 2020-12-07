@@ -48,7 +48,7 @@ class SeriesController extends Controller
             $request->session()->flash('mensagem', "Série {$serie->id} e suas temporadas e episodios foram criada com sucesso");
         });
 
-        EnviarEmail::novaSerie($request);
+        EnviarEmail::novaSerieAll($request);
 
         return redirect()->route('listar_series');
     }

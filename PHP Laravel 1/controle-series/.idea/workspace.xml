@@ -22,6 +22,7 @@
     <list default="true" id="61c95049-25d2-4811-ab58-531db5639c11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SeriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SeriesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/EnviarEmail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/EnviarEmail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -222,7 +223,7 @@
       <workItem from="1606996695125" duration="5704000" />
       <workItem from="1607080882684" duration="4680000" />
       <workItem from="1607341066580" duration="94000" />
-      <workItem from="1607341259231" duration="5589000" />
+      <workItem from="1607341259231" duration="10186000" />
     </task>
     <servers />
   </component>
