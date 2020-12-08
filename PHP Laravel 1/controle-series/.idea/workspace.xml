@@ -19,14 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61c95049-25d2-4811-ab58-531db5639c11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Events/SerieApagada.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Jobs/ExcluirCapaSerie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Listeners/ExcluirCapaSerie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/RemovedorDeSerie.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/RemovedorDeSerie.php" afterDir="false" />
-    </list>
+    <list default="true" id="61c95049-25d2-4811-ab58-531db5639c11" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -236,7 +229,7 @@
       <workItem from="1607341066580" duration="94000" />
       <workItem from="1607341259231" duration="10186000" />
       <workItem from="1607363349401" duration="9809000" />
-      <workItem from="1607429861826" duration="3980000" />
+      <workItem from="1607429861826" duration="3981000" />
     </task>
     <servers />
   </component>
