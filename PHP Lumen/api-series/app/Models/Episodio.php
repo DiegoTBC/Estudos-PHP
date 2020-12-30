@@ -17,6 +17,8 @@ class Episodio extends Model
         'numero' => 'int',
         'serie_id' => 'int',
     ];
+    protected $perPage = 4;
+    protected $appends = ['links'];
 
     public function serie()
     {
@@ -26,6 +28,14 @@ class Episodio extends Model
     public function getAssistidoAttribute($assistido): bool
     {
         return $assistido;
+    }
+
+    public function getLinksAttribute($links): array
+    {
+        return [
+            'self' => '/api/episodios/' . $this->id,
+            'serie' => '/api/series/' . $this->serie_id
+        ];
     }
 
 }

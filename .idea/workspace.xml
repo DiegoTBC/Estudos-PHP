@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d558a747-efb1-4ac0-b244-f2d7e1a4dcb6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Http/Controllers/BaseController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Http/Controllers/EpisodiosController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/app/Http/Controllers/SeriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Http/Controllers/SeriesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/app/Http/Controllers/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Http/Controllers/BaseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/app/Http/Controllers/EpisodiosController.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Http/Controllers/EpisodiosController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/app/Models/Episodio.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Models/Episodio.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/app/Models/Serie.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Models/Serie.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/database/database.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/database/database.sqlite" afterDir="false" />
@@ -62,6 +61,7 @@
       <updated>1609335883871</updated>
       <workItem from="1609335886980" duration="4119000" />
       <workItem from="1609347031078" duration="9003000" />
+      <workItem from="1609358015416" duration="2758000" />
     </task>
     <servers />
   </component>
