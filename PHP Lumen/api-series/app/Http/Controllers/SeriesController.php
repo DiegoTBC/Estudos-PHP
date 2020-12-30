@@ -3,13 +3,13 @@
 
 namespace App\Http\Controllers;
 
-
 use App\Models\Serie;
 
-class SeriesController extends Controller
+class SeriesController extends BaseController
 {
-    public function index()
+    public function __construct()
     {
-        return Serie::all();
+        $this->classe = Serie::class;
     }
 }
+
