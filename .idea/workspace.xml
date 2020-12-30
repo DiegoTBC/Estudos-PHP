@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d558a747-efb1-4ac0-b244-f2d7e1a4dcb6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/.styleci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Console/Commands/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Events/Event.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Events/ExampleEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Http/Controllers/ExampleController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Http/Controllers/SeriesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Http/Middleware/ExampleMiddleware.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Jobs/ExampleJob.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Jobs/Job.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Listeners/ExampleListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Models/Episodio.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Models/Serie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/database/database.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/database/migrations/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/database/migrations/2020_12_30_143538_criar_tabela_series.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/database/migrations/2020_12_30_143603_criar_tabela_episodios.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/resources/views/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/tests/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/tests/TestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel/controle-series/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Laravel/controle-series/routes/web.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/PHP PDO/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/PHP PDO/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1mNZClG61Zv7VXBQI0PW6Gh1AI5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d558a747-efb1-4ac0-b244-f2d7e1a4dcb6" name="Default Changelist" comment="" />
+      <created>1609335883871</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609335883871</updated>
+      <workItem from="1609335886980" duration="4119000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

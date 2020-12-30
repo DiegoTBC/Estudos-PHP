@@ -49,4 +49,3 @@ Route::get('/sair', function () {
     Auth::logout();
     return redirect('/entrar');
 });
-
