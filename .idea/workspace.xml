@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d558a747-efb1-4ac0-b244-f2d7e1a4dcb6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Http/Controllers/TokenController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Http/Middleware/Autenticador.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/database/migrations/2020_12_31_130249_criar_tabela_usuarios.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/database/seeders/UsuarioSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/app/Http/Controllers/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Http/Controllers/BaseController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/app/Http/Controllers/EpisodiosController.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Http/Controllers/EpisodiosController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/app/Models/Episodio.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Models/Episodio.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/app/Models/Serie.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Models/Serie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/bootstrap/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/database/database.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/database/database.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/database/seeders/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +45,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -62,6 +71,8 @@
       <workItem from="1609335886980" duration="4119000" />
       <workItem from="1609347031078" duration="9003000" />
       <workItem from="1609358015416" duration="2758000" />
+      <workItem from="1609417182293" duration="5904000" />
+      <workItem from="1609423216820" duration="27000" />
     </task>
     <servers />
   </component>
