@@ -20,6 +20,15 @@
       ),
       'reference' => '8e371041f47dadf62373ee3861991390791e6ef5',
     ),
+    'evenement/evenement' => 
+    array (
+      'pretty_version' => 'v3.0.1',
+      'version' => '3.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '531bfb9d15f8aa57454f5f0285b18bec903b8fb7',
+    ),
     'guzzlehttp/guzzle' => 
     array (
       'pretty_version' => '7.2.0',
@@ -87,6 +96,24 @@
       array (
       ),
       'reference' => '120b605dfeb996808c31b6477290a714d356e822',
+    ),
+    'react/event-loop' => 
+    array (
+      'pretty_version' => 'v1.1.1',
+      'version' => '1.1.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '6d24de090cd59cfc830263cfba965be77b563c13',
+    ),
+    'react/stream' => 
+    array (
+      'pretty_version' => 'v1.1.1',
+      'version' => '1.1.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '7c02b510ee3f582c810aeccd3a197b9c2f52ff1a',
     ),
   ),
 );
