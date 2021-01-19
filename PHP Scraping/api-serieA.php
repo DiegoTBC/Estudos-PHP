@@ -5,16 +5,6 @@ require_once 'vendor/autoload.php';
 $client = \Symfony\Component\HttpClient\HttpClient::create();
 $browser = new \Symfony\Component\BrowserKit\HttpBrowser($client);
 
-/*$crawler = $browser->request("GET", "https://globoesporte.globo.com/futebol/brasileirao-serie-a/");
-
-$resultado = $crawler->filter("tbody > .classificacao__tabela--linha > tr")->each(function ($node) {
-    $return['posicao'] = $node->filter("td.classificacao__equipes--posicao")->text();
-    $return['nome'] = $node->filter("td.classificacao__equipes--time > strong")->text();
-    return $return;
-});
-
-var_dump($resultado);*/
-
 $crawler = $browser->request("GET", "https://www.terra.com.br/esportes/futebol/brasileiro-serie-a/tabela/");
 
 $classificacao = $crawler->filter("tbody > tr")->each(function ($node) {
