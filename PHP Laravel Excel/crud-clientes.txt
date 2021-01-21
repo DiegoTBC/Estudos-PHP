@@ -1,0 +1,1 @@
+php artisan crud:generate Clients --fields='nome#string; email#string;' --view-path=admin --controller-namespace=App\\Http\\Controllers\\Admin --route-group=admin --form-helper=html
