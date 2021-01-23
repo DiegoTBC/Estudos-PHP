@@ -3,11 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
 
 class GithubController extends Controller
 {
     public function buscar()
     {
-        dd('Chegou aqui');
+        $response = Http::get('https://api.github.com/search/repositories?q=DiegoTBC');
+        dd($response->body());
     }
 }
