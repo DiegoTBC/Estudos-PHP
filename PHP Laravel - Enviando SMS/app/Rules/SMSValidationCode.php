@@ -25,7 +25,7 @@ class SMSValidationCode implements Rule
      */
     public function passes($attribute, $value)
     {
-        //
+        return $value == session('code');
     }
 
     /**
@@ -35,6 +35,6 @@ class SMSValidationCode implements Rule
      */
     public function message()
     {
-        return 'The validation error message.';
+        return 'Verifique o codigo enviado por SMS';
     }
 }

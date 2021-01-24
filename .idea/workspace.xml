@@ -2,21 +2,185 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d558a747-efb1-4ac0-b244-f2d7e1a4dcb6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Http/Controllers/TokenController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Http/Middleware/Autenticador.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/database/migrations/2020_12_31_130249_criar_tabela_usuarios.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP Lumen/api-series/database/seeders/UsuarioSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/.styleci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/app/Http/Middleware/TrustHosts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/app/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/config/cors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/public/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/resources/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/resources/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/resources/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/resources/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/resources/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP Laravel - Enviando SMS/webpack.mix.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/app/Models/Episodio.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Models/Episodio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/app/Models/Serie.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Models/Serie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/bootstrap/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/database/database.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/database/database.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP Lumen/api-series/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Lumen/api-series/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/.idea/commandlinetools/Laravel_23_01_2021_18_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/.idea/consumindo-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/.idea/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/app/Http/Controllers/GithubController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/app/Http/Middleware/PreventRequestsDuringMaintenance.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/app/Http/Middleware/TrustHosts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/app/Models/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/app/Services/GithubService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/config/cors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/database/seeders/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/public/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/resources/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/resources/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/resources/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/resources/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/resources/lang/en/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/resources/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/resources/views/github/buscar.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/resources/views/layout/base.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Laravel - Consumindo APIs Rest/consumindo-api/webpack.mix.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +213,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PHP Laravel - Enviando SMS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,6 +237,8 @@
       <workItem from="1609358015416" duration="2758000" />
       <workItem from="1609417182293" duration="5904000" />
       <workItem from="1609423216820" duration="27000" />
+      <workItem from="1611487059971" duration="79000" />
+      <workItem from="1611487173372" duration="31000" />
     </task>
     <servers />
   </component>

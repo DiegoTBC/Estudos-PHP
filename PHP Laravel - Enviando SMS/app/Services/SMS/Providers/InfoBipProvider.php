@@ -5,14 +5,26 @@ namespace App\Services\SMS;
 
 use Illuminate\Support\Facades\Http;
 
-class InfoBipProvider
+class InfoBipProvider implements SmsServiceInterface
 {
-    public function send(string $celNumber, $msg)
+    /**
+     * @var string
+     */
+    private $token;
+    private $url;
+
+    public function __construct(string $token, $url)
+    {
+        $this->token = $token;
+        $this->url = $url;
+    }
+
+    public function send(string $celNumber, string $msg): int
     {
         $response = Http::withHeaders([
-            'Authorization' => 'App e18398bfe914267d43988e7ff980c641-f0a32cd3-e58b-4c28-9f82-f013ed7e0fca'
+            'Authorization' => "App {$this->token}"
         ])
-            ->post('https://mp9wmj.api.infobip.com/sms/2/text/advanced', [
+            ->post("{$this->url}/text/advanced", [
                 'messages' => [
                     'from' => 'Teste Diego',
                     'destinations' => [

@@ -30,4 +30,9 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'infobip' => [
+        'token' => env('SMS_INFOBIP_TOKEN'),
+        'url' => env('SMS_INFOBIP_URL', 'https://mp9wmj.api.infobip.com/sms/2')
+    ]
+
 ];

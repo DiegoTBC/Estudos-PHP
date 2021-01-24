@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Services\SMS\InfoBipProvider;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -13,7 +14,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->singleton('App\Services\SMS\SmsServiceInterface', function($app){
+            $token = config('services.infobip.token');
+            $url = config('services.infobip.url');
+            return new InfoBipProvider($token, $url);
+        });
     }
 
     /**
