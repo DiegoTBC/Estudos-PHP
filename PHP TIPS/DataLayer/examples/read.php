@@ -1,8 +1,10 @@
 <?php
 
+use Source\Models\User;
+
 require '../vendor/autoload.php';
 
-/*
+
 $conn = \CoffeeCode\DataLayer\Connect::getInstance();
 $error = \CoffeeCode\DataLayer\Connect::getError();
 
@@ -11,14 +13,11 @@ if ($error) {
     die();
 }
 
-var_dump(true);
-*/
-
-$user = new \Source\Models\User();
+$user = new User();
 $list = $user->find()->fetch(true);
 
 /**
- * @var $userItem \Source\Models\User
+ * @var $userItem User
  */
 foreach ($list as $userItem) {
     var_dump($userItem->data);

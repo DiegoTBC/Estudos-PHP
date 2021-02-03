@@ -1,8 +1,7 @@
 <?php
 
-use Source\Models\User;
-
 require '../vendor/autoload.php';
+use Source\Models\User;
 
 $user = new User();
 $user->first_name = "Diego";

@@ -1,8 +1,8 @@
 <?php
 
 define("DATA_LAYER_CONFIG", [
-    "driver" => "sqlite:" ."/home/diego/Documents/Estudos-PHP/PHP TIPS/DataLayer/database.sqlite",
-    "host" => "",
+    "driver" => "sqlite",
+    "host" => __DIR__ . "/../database.sqlite",
     "port" => "",
     "dbname" => "",
     "username" => "",
