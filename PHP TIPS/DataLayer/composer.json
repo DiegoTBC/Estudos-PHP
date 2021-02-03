@@ -1,0 +1,21 @@
+{
+    "name": "diego/data-layer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Diego Torres",
+            "email": "torressdiiego@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/datalayer": "1.1.*"
+    }
+}
